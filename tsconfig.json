@@ -37,7 +37,8 @@
     "src",
     "types/**/*.d.ts",
     "src/types/auto-imports.d.ts",
-    "src/types/auto-components.d.ts"
+    "src/types/auto-components.d.ts",
+    "node_modules/.pnpm/unplugin-auto-import@0.16.7_@vueuse+core@10.9.0_rollup@4.13.2/node_modules/unplugin-auto-import/auto-imports.d.ts"
   ],
   "exclude": ["dist", "target", "node_modules"]
 }
