@@ -21,8 +21,8 @@ RUN npm run build:test
 FROM nginx:latest
 COPY --from=0 /app/dist-test /usr/share/nginx/html
 
-# 暴露 8280 端口
-EXPOSE 8280
+# 暴露 80 端口
+EXPOSE 80
 
 # 启动 nginx 服务
 CMD ["nginx", "-g", "daemon off;"]
